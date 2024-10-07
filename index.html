@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <link
+    rel="icon"
+    href="imaey.ico.jpeg"
+    type="image/x-icon"
+    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Khan pronto para você</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Os Preços do Khan</h1>
+
+    <p>Será realizado durante o bimestre para você, entrego 100%</p>
+
+    <br>
+    <hr>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <h1>As matérias do Khan</h1>
+            <button class="btn-proximo" data-proximo="1">Matematica</button>
+            <button class="btn-proximo" data-proximo="2">Fisica</button>
+            <button class="btn-proximo" data-proximo="3">OS dois</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <h1>Matematica</h1>
+            <img src="cenario-passo1.png" alt="">
+            <h2>valor: 20$</h2>
+            <button onclick="window.location.reload()">voltar</button>
+
+        </div>
+        <div class="passo" id="passo-2">
+            <h1>Fisica</h1>
+            <h2>valor: 20$</h2>
+
+            <button onclick="window.location.reload()">voltar</button>
+
+        </div>
+        <div class="passo" id="passo-3">
+            <h1>Matematica,Fisica</h1>
+            <h2>valor: 35$</h2>
+            <button onclick="window.location.reload()">voltar</button>
+
+        </div>
+        
+        
+
+    </main>
+
+    <script src="script.js"></script>
+
+    
+    
+</body>
+</html>
